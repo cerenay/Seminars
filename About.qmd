@@ -1,0 +1,13 @@
+---
+title: "Oslo RCT"
+---
+
+Oslo RCT Seminars Calendar
+```{r warning=FALSE, echo=FALSE, message=FALSE}
+library(dplyr)
+library(kableExtra)
+calendar<-read.csv2("rct_plan.csv")
+calendar%>%
+  kableExtra::kbl()%>%
+  kable_styling()
+```

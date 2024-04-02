@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Seminars"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - About.qmd
+      - BrownBag.qmd
+      - Presentasjoner.qmd
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+
+editor: visual
+
